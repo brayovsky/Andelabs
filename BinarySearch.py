@@ -30,7 +30,7 @@ class BinarySearch(list):
     while finish_index>=start_index and not item_found:
       #get midpoint
       mid_index = (start_index+finish_index)//2
-      #if its the midpoint found is true
+      #if its the midpoint,finishing or starting found is true
       if self[mid_index] == val:
         result["index"]=mid_index
         item_found = True
