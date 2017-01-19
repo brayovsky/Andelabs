@@ -26,6 +26,9 @@ class BinarySearch(list):
     #compensate for extra iteration not recorded
     result={"count":0,"index":-1} 
 
+    #if value is out of range, to hell with it
+    if val<self[start_index] or val>self[finish_index]:
+      return result
     #recursive binary search
     while finish_index>=start_index and not item_found:
       #get midpoint
