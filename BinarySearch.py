@@ -18,7 +18,6 @@ class BinarySearch(list):
     start_index = 0
     finish_index = self.length-1
     item_found = False
-    #compensate for extra iteration not recorded
     result={"count":0,"index":-1} 
 
     #if value is out of range, to hell with it
