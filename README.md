@@ -11,7 +11,7 @@ All the lab tests are done in python.
 6. Binary Search lab - BinarySearch.py
 
 #Known Issues
-Binary Search fails a test to search for a number beyond the range values of a large list.
+None
 
 #Python version
 Python 2.7.13
