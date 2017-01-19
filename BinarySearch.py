@@ -1,11 +1,6 @@
 
 class BinarySearch(list):
 
-  # def __new__(cls, list_length,step):
-  #   self.list_to_search = range(1,list_length*step,step)
-  #   obj = super(BinarySearch, cls).__new__(cls, )
-  #   return obj
-
   def __init__(self,list_length,step):
     self.length = list_length
     super(BinarySearch,self).__init__(self)
@@ -58,12 +53,3 @@ class BinarySearch(list):
       result["count"]+=1
           
     return result
-        
-if __name__ == "__main__":
-  r=BinarySearch(100,10)
-  p=r.search(10000)
-  print(r)
-  print(p)
-  # print(r[0])
-  # print(r[99])
-  # print(r.length)
